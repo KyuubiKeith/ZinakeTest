@@ -1,34 +1,61 @@
 ﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title | Zinake</title>
-    @Styles.Render("~/Scripts/CSS/css")
-    @Scripts.Render("~/bundles/modernizr")
+<html lang="en">
 
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:type" content="MwalimuOnline" />
+    <meta property="og:title" content="MwalimuOnline" />
+    <meta property="og:description" content="IT is faith in people, not faith in technology." />
+    <meta property="og:url" content="https://MwalimuOnline.com/" />
+    <meta property="og:site_name" content="MwalimuOnline" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:text:title" content="Landing" />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- mobile setting -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <!--- Title --->
+    <title>@ViewBag.Title | Zinake</title>
+
+    <!-- Favicon -->
+    @*<link rel="icon" type="image/svg" href="../Artista/Shared/Images/teaching.svg" />
+    <link rel="icon" type="image/png" href="../Artista/Shared/Images/teaching.png" />*@
+
+    <!-- CSS Inject -->
+    @Styles.Render("~/Scripts/CSS/css")
+
+    <!--- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!--12058 footer-->
 </head>
+
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
-                @Html.Partial("_LoginPartial")
-            </div>
+
+    <!-- Background Video -->
+    <video class="bg-video" loop autoplay muted>
+        <source src="../Artista/Shared/Videos/Push-The-Buttons.mp4" type="video/mp4">
+    </video>
+    <!-- Background Video -->
+    <!-- Mask -->
+    <div class="mask"></div>
+    <!-- Mask -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="logo-container hidden-sm hidden-xs"><div class="static-logo"></div><div class="logo-gif"></div></div>
+        <div class="logo-container mobile visible-sm visible-xs"><div class="static-logo black"></div></div>
+        <div class="social-show-container">
+            <a class="social-open" href="#"><span class="hidden-xs">Explore </span>
+                                            <img class="animated infinite" src="~/Content/Images/SVGs/three-dots.svg" alt="Explore Online">
+            </a>
         </div>
-    </div>
+    </nav>
+    <!-- Navbar -->
+
     <div class="container body-content">
         @RenderBody()
         <hr />
@@ -63,11 +90,16 @@
             </div>
         </footer>
         <!-- Footer -->
+
     </div>
 
+    <!-- Scripts -->
     @Scripts.Render("~/Scripts/ScrollMagic/js")
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/Scripts/modernizr")
+    @Scripts.Render("~/Scripts/jquery")
+    @Scripts.Render("~/Scripts/JavaScript/js")
     @RenderSection("scripts", required: false)
+    <!-- Scripts -->
+
 </body>
 </html>

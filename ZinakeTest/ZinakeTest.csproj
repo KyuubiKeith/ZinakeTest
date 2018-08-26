@@ -307,10 +307,14 @@
     <Content Include="Content\Images\JPG\rawpixel-783429-unsplash.jpg" />
     <Content Include="Content\Images\JPG\robert-gramner-718405-unsplash.jpg" />
     <Content Include="Content\Images\JPG\ryoji-iwata-470482-unsplash.jpg" />
+    <Content Include="Content\Images\SVGs\ball-triangle.svg" />
     <Content Include="Content\Images\SVGs\odnoklassniki-logo.svg" />
     <Content Include="Content\Images\SVGs\odnoklassniki.svg" />
+    <Content Include="Content\Images\SVGs\rings_dark.svg" />
+    <Content Include="Content\Images\SVGs\rings.svg" />
     <Content Include="Content\Images\SVGs\TheLogoDark.svg" />
     <Content Include="Content\Images\SVGs\TheLogoLight.svg" />
+    <Content Include="Content\Images\SVGs\three-dots.svg" />
     <Content Include="Content\MwalimuWorx.css" />
     <Content Include="Content\Videos\Digital_Agency.mp4" />
     <Content Include="Content\Videos\finale-white.mp4" />
@@ -555,6 +559,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Shared\_PopupPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
