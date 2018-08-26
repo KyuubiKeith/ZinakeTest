@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -290,11 +290,10 @@ th {
   src: url('../../../Shared/Fonts/Overlock/Overlock-Regular.ttf') format('embedded-opentype'), url('../../../Shared/Fonts/Overlock/Overlock-Regular.ttf') format('woff'), url('../../../Shared/Fonts/Overlock/Overlock-Regular.ttf') format('truetype'), url('../../../Shared/Fonts/Overlock/Overlock-Regul/lobster-two/LobsterTwo-Regular.otf')
 }
 @font-face {
-  font-family: 'Englebert';
-  font-weight: 400;
-  font-style: normal;
-  src: url('../../../Shared/Fonts/Englebert/Englebert-Regular.ttf');
-  src: url('../../../Shared/Fonts/Englebert/Englebert-Regular.ttf') format('embedded-opentype'), url('../../../Shared/Fonts/Englebert/Englebert-Regular.ttf') format('woff'), url('../../../Shared/Fonts/Englebert/Englebert-Regular.ttf') format('truetype'), url('../../../Shared/Fonts/Englebert/Englebert-Regular.svg#overlock') format('svg')
+    font-family: 'Dolbak';
+    src: url('/Fonts/TheDolbak-Brush.ttf') format("truetype"); /* Make sure your file location is right */
+    src: url('/Fonts/TheDolbak-Brush.eot') format('embedded-opentype'), src: url('/Fonts/TheDolbak-Brush.woff') format('woff')
+    ;
 }
 @font-face {
   font-family: 'LobsterTwo';
@@ -9923,15 +9922,17 @@ a {
 }
 .workinprogress {
   background-color: transparent;
+ 
 }
-.workinprogress h2 {
-  background-color: transparent;
-  color: rgba(255, 255, 255, 0.6);
-  position: relative;
-  bottom: -30px;
-  opacity: 0;
-  transition: bottom 1200ms 350ms, opacity 1200ms 350ms;
-}
+    .workinprogress h2 {
+        background-color: transparent;
+        color: rgba(255, 255, 255, 0.6);
+        position: relative;
+        bottom: -30px;
+        opacity: 0;
+        transition: bottom 1200ms 350ms, opacity 1200ms 350ms;
+        font-family: "Dolbak", Overlock;
+    }
 .workinprogress .text-primary {
   margin-top: 40px;
   opacity: 0;
@@ -10051,7 +10052,7 @@ a {
   }
   .workinprogress h2 {
     font-size: 51px;
-    font-family: 'Overlock'
+    font-family: Dolbak
   }
   .workinprogress .text-primary {
     font-size: 22px;

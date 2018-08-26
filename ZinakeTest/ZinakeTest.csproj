@@ -328,8 +328,6 @@
     <Content Include="Fonts\Overlock\SIL Open Font License.txt" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -471,12 +469,12 @@
     <Content Include="Fonts\Dolbak Brush\Font Files\The Dolbak-Brush.ufo\kerning.plist" />
     <Content Include="Fonts\Dolbak Brush\Font Files\The Dolbak-Brush.ufo\lib.plist" />
     <Content Include="Fonts\Dolbak Brush\Font Files\The Dolbak-Brush.ufo\metainfo.plist" />
-    <Content Include="Fonts\Dolbak Brush\Font Files\TheDolbak-Brush.eot" />
-    <Content Include="Fonts\Dolbak Brush\Font Files\TheDolbak-Brush.ttf" />
-    <Content Include="Fonts\Dolbak Brush\Font Files\TheDolbak-Brush.woff" />
-    <Content Include="Fonts\Dolbak Brush\Font Files\TheDolbak-Brush.woff2" />
+    <Content Include="Fonts\TheDolbak-Brush.eot" />
+    <Content Include="Fonts\TheDolbak-Brush.ttf" />
+    <Content Include="Fonts\TheDolbak-Brush.woff" />
+    <Content Include="Fonts\Dolbak Brush\TheDolbak-Brush.woff2" />
     <Content Include="Fonts\Dolbak Brush\Images\.DS_Store" />
-    <Content Include="Fonts\Dolbak Brush\__MACOSX\Font Files\._The Dolbak-Brush.ufo" />
+    <Content Include="Fonts\._The Dolbak-Brush.ufo" />
     <Content Include="Fonts\Dolbak Brush\__MACOSX\Font Files\._TheDolbak-Brush.ttf" />
     <Content Include="Fonts\Dolbak Brush\__MACOSX\Font Files\The Dolbak-Brush.ufo\._fontinfo.plist" />
     <Content Include="Fonts\Dolbak Brush\__MACOSX\Font Files\The Dolbak-Brush.ufo\._kerning.plist" />
@@ -491,9 +489,8 @@
     <Content Include="Fonts\Overlock\Overlock-Regular.ttf" />
     <Content Include="Fonts\Overlock\OverlockSC-Regular.otf" />
     <Content Include="Fonts\Timeburner Bold.ttf" />
-    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\CSS\main.css" />
-    <Content Include="Scripts\CSS\MwalimuWorx.css" />
+    <Content Include="Scripts\CSS\Zinake_2.0.css" />
     <Content Include="Scripts\CSS\ZinakeWorx.css" />
     <Content Include="Scripts\JavaScript\cdnjs.cloudflare.com\ajax\libs\modernizr\2.8.3\modernizr.min.js" />
     <Content Include="Scripts\JavaScript\cdnjs.cloudflare.com\ajax\libs\ScrollMagic\2.0.5\ScrollMagic.min.js" />
@@ -514,17 +511,6 @@
     <Content Include="Scripts\JavaScript\res\velocity.min.js" />
     <Content Include="Scripts\JavaScript\res\velocity.ui.min.js" />
     <Content Include="Scripts\JavaScript\vertical-slider.js" />
-    <Content Include="Scripts\jquery-3.3.1.js" />
-    <Content Include="Scripts\jquery-3.3.1.min.js" />
-    <Content Include="Scripts\jquery-3.3.1.slim.js" />
-    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Scripts\MwalimuWorx.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -559,7 +545,6 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Shared\_PopupPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -574,8 +559,6 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="packages.config" />
-    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
-    <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -11,7 +11,7 @@ namespace ZinakeTest
 
 
             bundles.Add(new StyleBundle("~/Scripts/CSS/css").Include(
-                         "~/Scripts/CSS/MwalimuWorx.css"));
+                         "~/Scripts/CSS/Zinake_2.0.css"));
 
             bundles.Add(new ScriptBundle("~/Scripts/ScrollMagic/js").Include(
                         "~/Scripts/Javascript/res/jquery.ScrollMagic.js",
