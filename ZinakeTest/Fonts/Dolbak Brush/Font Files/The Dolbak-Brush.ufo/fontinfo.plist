@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ascender</key>
+	<integer>800</integer>
+	<key>capHeight</key>
+	<integer>700</integer>
+	<key>copyright</key>
+	<string>Copyright © 2018 by Richard Khuptong. All rights reserved.</string>
+	<key>descender</key>
+	<integer>-200</integer>
+	<key>familyName</key>
+	<string>The Dolbak</string>
+	<key>openTypeHeadCreated</key>
+	<string>2018/05/17 10:33:54</string>
+	<key>openTypeNameDescription</key>
+	<string>The Dolbak Brush is a handwritten font created with a brush marker. The font is greatly inspired by the natural rawness, texture and feel of a brush marker. The font incorporated not only uppercase but include lowercase with all essential symbols and glyphs.
+
+For custom fonts and other enquiries kindly email at richard@khuptong.com</string>
+	<key>openTypeNameDesigner</key>
+	<string>Richard Khuptong</string>
+	<key>openTypeNameDesignerURL</key>
+	<string>www.khuptong.com</string>
+	<key>openTypeNameManufacturer</key>
+	<string>Richard Khuptong</string>
+	<key>openTypeNameManufacturerURL</key>
+	<string>www.khuptong.com</string>
+	<key>openTypeNamePreferredFamilyName</key>
+	<string>The Dolbak</string>
+	<key>openTypeNamePreferredSubfamilyName</key>
+	<string>Brush</string>
+	<key>openTypeOS2WeightClass</key>
+	<integer>400</integer>
+	<key>openTypeOS2WidthClass</key>
+	<integer>5</integer>
+	<key>postscriptBlueValues</key>
+	<array>
+	</array>
+	<key>postscriptFontName</key>
+	<string>TheDolbak-Brush</string>
+	<key>postscriptOtherBlues</key>
+	<array>
+	</array>
+	<key>styleMapFamilyName</key>
+	<string>The Dolbak Brush</string>
+	<key>styleMapStyleName</key>
+	<string>regular</string>
+	<key>styleName</key>
+	<string>Brush</string>
+	<key>unitsPerEm</key>
+	<integer>1000</integer>
+	<key>versionMajor</key>
+	<integer>1</integer>
+	<key>versionMinor</key>
+	<integer>0</integer>
+	<key>xHeight</key>
+	<integer>500</integer>
+</dict>
+</plist>

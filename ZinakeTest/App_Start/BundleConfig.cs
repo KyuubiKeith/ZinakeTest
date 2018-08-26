@@ -22,9 +22,12 @@ namespace ZinakeTest
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
 
-            bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+            bundles.Add(new ScriptBundle("~/Scripts/ScrollMagic/js").Include(
+                        "~/Scripts/Javascript/res/jquery.ScrollMagic.js",
+                        "~/Scripts/Javascript/res/ScrollMagic.js"));
+
+            bundles.Add(new StyleBundle("~/Scripts/CSS/css").Include(
+                      "~/Scripts/CSS/MwalimuWorx.css"));
         }
     }
 }

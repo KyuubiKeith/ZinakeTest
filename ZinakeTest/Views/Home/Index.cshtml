@@ -1,31 +1,149 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Landing";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MwalimuOnline | Landing</title>
+
+    <!--12058 footer-->
+
+
+    <meta property="og:type" content="MwalimuOnline" />
+    <meta property="og:title" content="MwalimuOnline" />
+    <meta property="og:description" content="IT is faith in people, not faith in technology." />
+    <meta property="og:url" content="https://MwalimuOnline.com/" />
+    <meta property="og:site_name" content="MwalimuOnline" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:text:title" content="Landing" />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg" href="../Artista/Shared/Images/teaching.svg" />
+    <link rel="icon" type="image/png" href="../Artista/Shared/Images/teaching.png" />
+
+    <!-- mobile setting -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- CSS Inject -->
+    <link href="../Artista/Landing/The_Styles/CSS/MwalimuWorx.css" rel="stylesheet" media="screen">
+
+    <!--- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+</head>
+
+
+<body>
+
+    <!-- Background Video -->
+    <video class="bg-video" loop autoplay muted>
+        <source src="../Artista/Shared/Videos/Push-The-Buttons.mp4" type="video/mp4">
+    </video>
+    <!-- Background Video -->
+    <!-- Mask -->
+    <div class="mask"></div>
+    <!-- Mask -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="logo-container hidden-sm hidden-xs"><div class="static-logo"></div><div class="logo-gif"></div></div>
+        <div class="logo-container mobile visible-sm visible-xs"><div class="static-logo black"></div></div>
+        <div class="social-show-container"><a class="social-open" href="#"><span class="hidden-xs">Register</span><i class="fas fa-arrow-right"></i></a></div>
+    </nav>
+    <!-- Navbar -->
+    <!-- Dynamic Content -->
+    <section class="wrapper">
+        <div class="border-element"></div>
+        <div class="landing scene" id="demo-slider">
+            <div class="slides workinprogress active">
+
+                <!-- Dynamic Content is rendered here -->
+                <section class="visible-section"></section>
+                <!-- Dynamic  Content is rendered here -->
+                <!-- Static Content -->
+                <div class="hidden-section">
+                    <div class="col-center padding-bottom-mobile">
+
+                        <h2 class="not-uppercase">
+                            Welcome to <br class="hidden-sm hidden-md hidden-lg">
+                            <div class="typed-string-container">
+                                <div class="profile-pic second"></div>
+                                <span class="second-typed-string"> Our Online Platform</span>
+                            </div><br class="hidden-md hidden-lg">.
+                        </h2>
+
+                        <div class="text-primary">
+                            Use This Portal to
+                            <div class="typed-string-container">
+                                <span class="first-typed-string">Register</span>
+                                <div class="profile-pic first"></div>
+                            </div>.<br><br>
+                            <div class="typed-string-container">
+                                <span class="third-typed-string"></span>
+                                <div class="profile-pic third"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Static Content -->
+
+            </div>
+        </div>
+    </section>
+    <!-- Dynamic Content -->
+
+    <!-- Pop-Up -->
+    <div class="social-popup">
+        <div class="velina"></div>
+        <div class="social-close"><a class="social-close-button" href="#"><i class="fas fa-times"></i></a></div>
+        <div class="social-container">
+            <h2 class="white">You can find us on:</h2>
+            <div class="social-buttons-content">
+                <div class="social-button-container">
+                    <a class="social-links fb hover-state" target="_blank" href="https://www.facebook.com/fightbean"><div class="icon-container"><i class="icon icon-fb"></i></div></a>
+                    <a class="social-links fb normal" target="_blank" href="https://www.facebook.com/fightbean"><div class="icon-container"><i class="icon icon-fb"></i></div></a>
+                </div>
+                <div class="social-button-container">
+                    <a class="social-links dribbble hover-state" target="_blank" href="https://dribbble.com/fightbean"><div class="icon-container"><i class="icon icon-dribbble"></i></div></a>
+                    <a class="social-links dribbble normal" target="_blank" href="https://dribbble.com/fightbean"><div class="icon-container"><i class="icon icon-dribbble"></i></div></a>
+                </div>
+                <div class="social-button-container">
+                    <a class="social-links instagram hover-state" target="_blank" href="https://www.instagram.com/fightbean/"><div class="icon-container"><i class="icon icon-instagram"></i></div></a>
+                    <a class="social-links instagram normal" target="_blank" href="https://www.instagram.com/fightbean/"><div class="icon-container"><i class="icon icon-instagram"></i></div></a>
+                </div>
+                <div class="social-button-container">
+                    <a class="social-links be hover-state" target="_blank" href="https://www.behance.net/fightbean"><div class="icon-container"><i class="icon icon-be"></i></div></a>
+                    <a class="social-links be normal" target="_blank" href="https://www.behance.net/fightbean"><div class="icon-container"><i class="icon icon-be"></i></div></a>
+                </div>
+            </div>
+
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    <!-- Pop-Up -->
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+
+    <!-- Scripts -->
+    <script src="../Artista/Landing/The_Styles/JavaScript/cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="../Artista/Landing/The_Styles/JavaScript/res/jquery-2.1.4.js"></script>
+    <script src="../Artista/Landing/The_Styles/JavaScript/res/typed.min.js"></script>
+    <script src="../Artista/Landing/The_Styles/JavaScript/cdnjs.cloudflare.com/ajax/libs/typeit/4.2.3/typeit.min.js"></script>
+    <script src="../Artista/Landing/The_Styles/JavaScript/res/typing-slide-loop2.js"></script>
+    <script src="../Artista/Landing/The_Styles/JavaScript/res/jquery.typist.min.js"></script>
+    <script src="../Artista/Landing/The_Styles/JavaScript/res/hammer.min.js"></script>
+    <script src="../Artista/Landing/The_Styles/JavaScript/res/jMouseWheel-1.0.min.js"></script>
+    <script src="../Artista/Landing/The_Styles/JavaScript/res/velocity.min.js"></script>
+    <script src="../Artista/Landing/The_Styles/JavaScript/res/velocity.ui.min.js"></script>
+    <script src="../Artista/Landing/The_Styles/JavaScript/vertical-slider.js"></script>
+    <script src="../Artista/Landing/The_Styles/JavaScript/lightslider.js"></script>
+    <script src="../Artista/Landing/The_Styles/JavaScript/main.js"></script>
+    <!-- Scripts -->
+
+</body>
+</html>

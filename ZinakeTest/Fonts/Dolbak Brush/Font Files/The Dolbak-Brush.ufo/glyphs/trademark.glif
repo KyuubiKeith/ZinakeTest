@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="trademark" format="1">
+  <advance width="457"/>
+  <unicode hex="2122"/>
+  <outline>
+    <component base="T" xScale="0.363" yScale="0.363"/>
+    <component base="M" xScale="0.363" yScale="0.363" xOffset="203"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-05-21 18:03:41 +0000</string>
+    </dict>
+  </lib>
+</glyph>

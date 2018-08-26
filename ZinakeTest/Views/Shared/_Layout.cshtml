@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
+    <title>@ViewBag.Title | Zinake</title>
+    @Styles.Render("~/Scripts/CSS/css")
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
@@ -32,11 +32,40 @@
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+
+        <!-- Footer -->
+        <footer class="footer-bottom">
+            <div class="footer-inner-alternative">
+                <div class="row">
+
+                    <!-- Left -->
+                    <div class="col-sm-8 col-md-7 col-lg-8">
+                        <div class="title">Mwalimu Online</div>
+                        <div class="subtitle"> ICT Solutiion.</div>
+                    </div>
+                    <!-- Left -->
+                    <!-- Right -->
+                    <div class="col-sm-4 col-md-5 col-lg-4 right-footer">
+                        <div class="right-footer-container">
+                            <span class="copyright">&copy; @DateTime.Now.Year  Zinake Portal</span>
+                            <span class="separator"></span>
+                            <ul class="social-list">
+                                <li><a class="no-dev" href="https://www.facebook.com/miyabiafrica/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a class="no-dev" href="https://twitter.com/miyabiafrica" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                                <li><a class="no-dev" href="" target="_blank"><i class="fas fa-envelope-square"></i></a></li>
+                                <li><a class="no-dev" href="" target="_blank"><i class="fas fa-phone-square"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Right -->
+
+                </div>
+            </div>
         </footer>
+        <!-- Footer -->
     </div>
 
+    @Scripts.Render("~/Scripts/ScrollMagic/js")
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
