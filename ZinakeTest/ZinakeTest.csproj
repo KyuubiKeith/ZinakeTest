@@ -566,6 +566,7 @@
     <Content Include="Fonts\fontelloa950.woff2" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_LayoutTest.cshtml" />
+    <None Include="Properties\PublishProfiles\ZinakeWebApp - Web Deploy.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

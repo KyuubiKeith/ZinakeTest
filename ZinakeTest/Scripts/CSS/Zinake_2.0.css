@@ -11310,7 +11310,7 @@ a {
 .footer-bottom {
   width: 100%;
   height: 80px;
-  background: #212121;
+  background: transparent;
   position: fixed;
   z-index: 4;
   bottom: 0;
@@ -11336,7 +11336,7 @@ a {
   -webkit-transition: color .3s;
   transition: color .3s;
   text-decoration: none;
-  color: rgba(255, 255, 255, .4)
+  color: dimgrey
 }
 .footer-bottom .right-footer .right-footer-container .social-list a.no-dev:hover{
   color: #fff;
@@ -11365,7 +11365,7 @@ a {
   font: 300 15px overlock;
   float: left;
   padding: 0;
-  color: rgba(255, 255, 255, .4)
+  color: dimgrey
 }
 
 .footer-bottom .right-footer .right-footer-container .separator {
@@ -11373,7 +11373,7 @@ a {
   width: 2px;
   height: 30px;
   margin: 0 17px;
-  background-color: rgba(255, 255, 255, .1)
+  background-color: dimgrey
 }
 
 ul[class$=list] {
@@ -12130,7 +12130,7 @@ h5.jobs-titles {
 }
 h6 {
   font-size: 12px;
-  font-family: 'Overlock'';
+  font-family: 'Overlock''
 }
 h6.footer-titles {
   font-weight: bold;
