@@ -298,11 +298,14 @@
     <Content Include="Content\Images\JPG\ilya-pavlov-87438-unsplash.jpg" />
     <Content Include="Content\Images\JPG\kristian-ryan-alimon-683428-unsplash.jpg" />
     <Content Include="Content\Images\JPG\max-larochelle-415268-unsplash.jpg" />
+    <Content Include="Content\Images\JPG\Zinake.jpg" />
     <Content Include="Content\Images\JPG\peter-hershey-112809-unsplash.jpg" />
     <Content Include="Content\Images\JPG\rawpixel-777268-unsplash.jpg" />
     <Content Include="Content\Images\JPG\rawpixel-783429-unsplash.jpg" />
     <Content Include="Content\Images\JPG\robert-gramner-718405-unsplash.jpg" />
     <Content Include="Content\Images\JPG\ryoji-iwata-470482-unsplash.jpg" />
+    <Content Include="Content\Images\SVGs\appDark.svg" />
+    <Content Include="Content\Images\SVGs\app.svg" />
     <Content Include="Content\Images\SVGs\ball-triangle.svg" />
     <Content Include="Content\Images\SVGs\odnoklassniki-logo.svg" />
     <Content Include="Content\Images\SVGs\odnoklassniki.svg" />

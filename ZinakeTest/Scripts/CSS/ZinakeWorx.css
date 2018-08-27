@@ -12640,12 +12640,12 @@ a {
 
         .nav-light .logo-container .static-logo,
         .nav-dark .logo-container .static-logo {
-            background: url('../images/white.svg');
+            background: url('/Content/Images/AOB/white.svg');
         }
 
             .nav-light .logo-container .static-logo.black,
             .nav-dark .logo-container .static-logo.black {
-                background: url('../images/black.svg');
+                background: url('/Content/Images/AOB/black.svg');
             }
 
 @media screen and (max-width: 768px) {
@@ -12710,11 +12710,11 @@ a {
 }
 
 .navbar-default.navbar-fixed-top .logo-container .static-logo {
-    background: url('../images/white-def.svg');
+    background: url('/Content/Images/SVGs/app.svg');
 }
 
     .navbar-default.navbar-fixed-top .logo-container .static-logo.black {
-        background: url('../images/black-def.svg');
+        background: url('/Content/Images/AOB/black-def.svg');
     }
 
 .navbar-default.navbar-fixed-top .logo-container .logo-gif {
@@ -12745,7 +12745,7 @@ a {
 }
 
 .vs-active-section-1 .navbar-default.navbar-fixed-top .logo-container .static-logo {
-    background: url('../images/black-def.svg');
+    background: url('/Content/Images/SVGs/appDark.svg');
 }
 
 .vs-active-section-1 .navbar-default.navbar-fixed-top .logo-container .static-logo,
@@ -12757,13 +12757,13 @@ a {
 }
 
 .vs-active-section-1 .navbar-default.navbar-fixed-top .logo-gif {
-    background: url('../images/Logo_Animation_black.gif');
+    background: url('/Content/Images/SVGs/rings_dark.svg');
 }
 
 .vs-active-section-0 .logo-gif,
 .vs-active-section-2 .logo-gif,
 .vs-active-section-3 .logo-gif {
-    background: url('../images/Logo_Animation_Green.gif');
+    background: url('/Content/Images/SVGs/rings.svg');
 }
 
 .vs-active-section-0 .navbar-default.navbar-fixed-top .social-show-container .social-open,
@@ -14400,13 +14400,13 @@ a {
 .footer-bottom {
     width: 100%;
     height: 80px;
-    background: #212121;
+    background: transparent;
     position: fixed;
     z-index: 4;
     bottom: 0;
     left: 0;
     font-size: 14px;
-    font-family: 'Overlocl';
+    font-family: 'Overlock';
     color: #737171;
 }
 
@@ -14416,8 +14416,69 @@ a {
 
         .footer-bottom .right-footer .right-footer-container {
             position: absolute;
+            display: inline-block;
             right: 10px;
         }
+
+            .footer-bottom .right-footer .right-footer-container .social-list {
+                float: left;
+            }
+
+                .footer-bottom .right-footer .right-footer-container .social-list a {
+                    font-size: 18px;
+                    margin-left: 16px;
+                    -webkit-transition: color .3s;
+                    transition: color .3s;
+                    text-decoration: none;
+                    color: dimgrey
+                }
+
+                    .footer-bottom .right-footer .right-footer-container .social-list a.no-dev:hover {
+                        color: #fff;
+                    }
+
+                .footer-bottom .right-footer .right-footer-container .social-list li {
+                    float: left
+                }
+
+                    .footer-bottom .right-footer .right-footer-container .social-list li:first-child a {
+                        margin-left: 0
+                    }
+
+        .footer-bottom .right-footer .right-footer-container {
+            display: inline-block;
+            width: auto;
+            margin: 0 auto 14px
+        }
+
+            .footer-bottom .right-footer .right-footer-container:after,
+            .footer-bottom .right-footer .right-footer-container:before {
+                display: block;
+                float: left;
+                clear: both;
+                content: ''
+            }
+
+            .footer-bottom .right-footer .right-footer-container .copyright {
+                font: 300 15px overlock;
+                float: left;
+                padding: 0;
+                color: dimgrey
+            }
+
+            .footer-bottom .right-footer .right-footer-container .separator {
+                float: left;
+                width: 2px;
+                height: 30px;
+                margin: 0 17px;
+                background-color: dimgrey
+            }
+
+ul[class$=list] {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
 
 @media screen and (max-width: 1024px) {
     .footer-bottom .right-footer .right-footer-container {
@@ -14435,12 +14496,13 @@ a {
 .footer-bottom .footer-inner-alternative {
     padding: 20px 40px;
     margin: 0 auto;
+    font-size: 20px;
 }
 
     .footer-bottom .footer-inner-alternative p {
         padding: 0;
         margin: 0;
-        font-size: 12px;
+        font-size: 16px;
     }
 
 @media screen and (max-width: 768px) {
