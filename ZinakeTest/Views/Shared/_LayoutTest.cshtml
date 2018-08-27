@@ -27,7 +27,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
     <!-- CSS Inject -->
-    <link href="~/Scripts/CSS/Zinake_2.0.css" rel="stylesheet" />
+    @Styles.Render("~/Scripts/CSS/Zinake_2.0.css")
 
     <!--- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -39,7 +39,7 @@
 
     <!-- Background Video -->
     <video class="bg-video" loop autoplay muted>
-        <source src="~/Content/Videos/Digital_Agency.mp4" type="video/mp4">
+        <source src="~/Content/Videos/Hacker_code_white_03_Videvo.mov" type="video/mov">
     </video>
     <!-- Background Video -->
 
@@ -49,7 +49,7 @@
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="logo-container hidden-sm hidden-xs"><div class="static-logo"></div><div class="logo-gif"></div></div>
         <div class="logo-container mobile visible-sm visible-xs"><div class="static-logo black"></div></div>
-        <div class="social-show-container"><a class="social-open" href="#"><span class="hidden-xs">Explore</span> <img class="animated infinite" src="~/Content/Images/SVGs/three-dots.svg" alt="Explore Online"></a></div>
+        <div class="social-show-container"><a class="social-open" href="#"><span class="hidden-xs">FOLLOW US</span> <i class="far fa-user-circle"></i></a></div>
     </nav>
     @RenderSection("Element")
 

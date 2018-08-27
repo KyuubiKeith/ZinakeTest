@@ -324,6 +324,7 @@
     <Content Include="Fonts\Dolbak Brush\Images\Type_Specimen_TheDolbakBrush.jpg" />
     <Content Include="Fonts\Dolbak Brush\__MACOSX\Images\._Preview_Imagery_TheDolbakBrush.jpg" />
     <Content Include="Fonts\Dolbak Brush\__MACOSX\Images\._Type_Specimen_TheDolbakBrush.jpg" />
+    <Content Include="Fonts\fontelloa950.svg" />
     <Content Include="Fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Fonts\Overlock\SIL Open Font License.txt" />
     <Content Include="Global.asax" />
@@ -548,6 +549,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Fonts\Fontello\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Fonts\glyphicons-halflings-regular.woff2" />
@@ -558,7 +560,12 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Fonts\fontelloa950.eot" />
+    <Content Include="Fonts\fontelloa950.ttf" />
+    <Content Include="Fonts\fontelloa950.woff" />
+    <Content Include="Fonts\fontelloa950.woff2" />
     <None Include="packages.config" />
+    <Content Include="Views\Shared\_LayoutTest.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
