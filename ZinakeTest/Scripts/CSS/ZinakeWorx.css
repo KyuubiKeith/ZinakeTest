@@ -12640,12 +12640,12 @@ a {
 
         .nav-light .logo-container .static-logo,
         .nav-dark .logo-container .static-logo {
-            background: url('/Content/Images/AOB/white.svg');
+            background: url('/Content/Images/SVGs/app.svg');
         }
 
             .nav-light .logo-container .static-logo.black,
             .nav-dark .logo-container .static-logo.black {
-                background: url('/Content/Images/AOB/black.svg');
+                background: url('/Content/Images/SVGs/appDark.svg');
             }
 
 @media screen and (max-width: 768px) {
@@ -12714,7 +12714,7 @@ a {
 }
 
     .navbar-default.navbar-fixed-top .logo-container .static-logo.black {
-        background: url('/Content/Images/AOB/black-def.svg');
+        background: url('/Content/Images/SVGs/appDark.svg');
     }
 
 .navbar-default.navbar-fixed-top .logo-container .logo-gif {
