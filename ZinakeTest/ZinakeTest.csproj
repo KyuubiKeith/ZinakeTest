@@ -207,10 +207,6 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Images\AOB\arrow-right.png" />
     <Content Include="Content\Images\AOB\black-def.svg" />
     <Content Include="Content\Images\AOB\black.svg" />
@@ -315,7 +311,6 @@
     <Content Include="Content\Images\SVGs\TheLogoDark.svg" />
     <Content Include="Content\Images\SVGs\TheLogoLight.svg" />
     <Content Include="Content\Images\SVGs\three-dots.svg" />
-    <Content Include="Content\MwalimuWorx.css" />
     <Content Include="Content\Videos\Digital_Agency.mp4" />
     <Content Include="Content\Videos\finale-white.mp4" />
     <Content Include="Content\Videos\work_Silhouette.mp4" />
@@ -326,9 +321,8 @@
     <Content Include="Fonts\Dolbak Brush\__MACOSX\Images\._Type_Specimen_TheDolbakBrush.jpg" />
     <Content Include="Fonts\fontelloa950.svg" />
     <Content Include="Fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Fonts\Overlock\SIL Open Font License.txt" />
+    <Content Include="Fonts\SIL Open Font License.txt" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -482,13 +476,13 @@
     <Content Include="Fonts\Dolbak Brush\__MACOSX\Font Files\The Dolbak-Brush.ufo\._metainfo.plist" />
     <Content Include="Fonts\Dolbak Brush\__MACOSX\Font Files\The Dolbak-Brush.ufo\glyphs\._contents.plist" />
     <Content Include="Fonts\Dolbak Brush\__MACOSX\Images\._.DS_Store" />
-    <Content Include="Fonts\Overlock\Overlock-Black.ttf" />
-    <Content Include="Fonts\Overlock\Overlock-BlackItalic.ttf" />
-    <Content Include="Fonts\Overlock\Overlock-Bold.ttf" />
-    <Content Include="Fonts\Overlock\Overlock-BoldItalic.ttf" />
-    <Content Include="Fonts\Overlock\Overlock-Italic.ttf" />
-    <Content Include="Fonts\Overlock\Overlock-Regular.ttf" />
-    <Content Include="Fonts\Overlock\OverlockSC-Regular.otf" />
+    <Content Include="Fonts\Overlock-Black.ttf" />
+    <Content Include="Fonts\Overlock-BlackItalic.ttf" />
+    <Content Include="Fonts\Overlock-Bold.ttf" />
+    <Content Include="Fonts\Overlock-BoldItalic.ttf" />
+    <Content Include="Fonts\Overlock-Italic.ttf" />
+    <Content Include="Fonts\Overlock-Regular.ttf" />
+    <Content Include="Fonts\OverlockSC-Regular.otf" />
     <Content Include="Fonts\Timeburner Bold.ttf" />
     <Content Include="Scripts\CSS\main.css" />
     <Content Include="Scripts\CSS\Zinake_2.0.css" />
@@ -550,16 +544,13 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Fonts\Fontello\" />
+    <Folder Include="Fonts\Overlock\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Fonts\fontelloa950.eot" />
     <Content Include="Fonts\fontelloa950.ttf" />
     <Content Include="Fonts\fontelloa950.woff" />

@@ -27,7 +27,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
     <!-- CSS Inject -->
-    <link href="~/Scripts/CSS/Zinake_2.0.css" rel="stylesheet" />
+    <link href="~/Scripts/CSS/ZinakeWorx.css" rel="stylesheet" />
 
     <!--- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -37,13 +37,13 @@
 
 <body>
 
-    <!-- Background Video -->
-    <video class="bg-video" loop autoplay muted>
-        <source src="~/Content/Videos/Digital_Agency.mp4" type="video/mp4">
-    </video>
-    <!-- Background Video -->
+    @*<!-- Background Video -->
+        <video class="bg-video" loop autoplay muted>
+            <source src="~/Content/Videos/Digital_Agency.mp4" type="video/mp4">
+        </video>
+        <!-- Background Video -->
 
-    <div class="mask"></div>
+        <div class="mask"></div>*@
 
     <!--navbar-->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -51,6 +51,8 @@
         <div class="logo-container mobile visible-sm visible-xs"><div class="static-logo black"></div></div>
         <div class="social-show-container"><a class="social-open" href="#"><span class="hidden-xs">Explore</span> <img class="animated infinite" src="~/Content/Images/SVGs/three-dots.svg" alt="Explore Online"></a></div>
     </nav>
+    <!--navbar-->
+
     @RenderSection("Element")
 
     @RenderSection("PopUps")
