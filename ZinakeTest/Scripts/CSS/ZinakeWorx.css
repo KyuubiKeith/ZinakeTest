@@ -8082,7 +8082,7 @@ button.close {
 .visible-sm,
 .visible-md,
 .visible-lg {
-    display: none !important;
+    display: block !important;
 }
 
 .visible-xs-block,
@@ -12474,7 +12474,7 @@ a {
 }
 
     .internal-page-content .internal-page-header {
-        background: url('../images/header-projects.jpg') no-repeat center 0;
+        background: url('/Content/Images/AOB/header-projects.jpg') no-repeat center 0;
         background-size: cover;
         width: 100%;
         height: 500px;
@@ -12488,7 +12488,7 @@ a {
 }
 
 .internal-page-content .internal-page-header.job-header {
-    background-image: url('../images/job-header.jpg');
+    background-image: url('/Content/Images/AOB/job-header.jpg');
 }
 
     .internal-page-content .internal-page-header.job-header:after {
@@ -12640,12 +12640,12 @@ a {
 
         .nav-light .logo-container .static-logo,
         .nav-dark .logo-container .static-logo {
-            background: url('/Content/Images/SVGs/app.svg');
+            background: url('/Content/Images/JPG/Zinake.jpg');
         }
 
             .nav-light .logo-container .static-logo.black,
             .nav-dark .logo-container .static-logo.black {
-                background: url('/Content/Images/SVGs/appDark.svg');
+                background: url('/Content/Images/JPG/Zinake.jpg');
             }
 
 @media screen and (max-width: 768px) {
@@ -12710,12 +12710,10 @@ a {
 }
 
 .navbar-default.navbar-fixed-top .logo-container .static-logo {
-    background: url('/Content/Images/SVGs/app.svg');
+    background: url('/Content/Images/JPG/Zinake.jpg');
 }
 
-    .navbar-default.navbar-fixed-top .logo-container .static-logo.black {
-        background: url('/Content/Images/SVGs/appDark.svg');
-    }
+
 
 .navbar-default.navbar-fixed-top .logo-container .logo-gif {
     display: none;
@@ -12745,7 +12743,7 @@ a {
 }
 
 .vs-active-section-1 .navbar-default.navbar-fixed-top .logo-container .static-logo {
-    background: url('/Content/Images/SVGs/appDark.svg');
+    background: url('/Content/Images/JPG/Zinake.jpg');
 }
 
 .vs-active-section-1 .navbar-default.navbar-fixed-top .logo-container .static-logo,
@@ -12757,13 +12755,13 @@ a {
 }
 
 .vs-active-section-1 .navbar-default.navbar-fixed-top .logo-gif {
-    background: url('/Content/Images/SVGs/rings_dark.svg');
+    background: url('/Content/Images/JPG/Zinake.jpg');
 }
 
 .vs-active-section-0 .logo-gif,
 .vs-active-section-2 .logo-gif,
 .vs-active-section-3 .logo-gif {
-    background: url('/Content/Images/SVGs/rings.svg');
+    background: url('/Content/Images/JPG/Zinake.jpg');
 }
 
 .vs-active-section-0 .navbar-default.navbar-fixed-top .social-show-container .social-open,
@@ -12773,7 +12771,7 @@ a {
 }
 
 .workinprogress {
-    background-color: transparent;
+    background-image: url('/Content/Images/JPG/christopher-burns-368617-unsplash.jpg')
 }
 
     .workinprogress h2 {
@@ -13756,6 +13754,7 @@ a {
     height: 100%;
     width: 100%;
     overflow: hidden;
+    background-image: url('/Content/Images/JPG/fancycrave-347298-unsplash.jpg')
 }
 
     .iphone-video-container video {
@@ -14599,17 +14598,10 @@ ul[class$=list] {
     top: 0;
     bottom: 0;
     background-size: cover;
+    background-image:url('/Content/Images/JPG/rawpixel-777268-unsplash.jpg')
     z-index: 1;
 }
 
-    .absolute-full-container .static-video-container {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background-size: cover;
-    }
 
 @media screen and (max-width: 1023px) {
     .absolute-full-container {
@@ -15531,7 +15523,7 @@ a {
 }
 
 .vs-section {
-    background: #00dbdb;
+    background-image: url('/Content/Images/JPG/christopher-burns-368617-unsplash.jpg');
 }
 
 @media screen and (max-width: 768px) {
