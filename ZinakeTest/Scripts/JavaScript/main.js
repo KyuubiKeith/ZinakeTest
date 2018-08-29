@@ -347,32 +347,35 @@ jQuery( document ).ready(function( $ ) {
     
     //logo animation
     
-    $('.logo-container').hover(function(){
+    $('.logo-container').hover(function () {
+
+        if (window.innerWidth >= 1024) {
+            $(".logo-container").mouseenter(function () {
+                $('.static-logo').hide();
+                $('.logo-gif').show();
+                return false;
+
+            }).mouseleave(function () {
+                $('.static-logo').show();
+                $('.static-logo').hide();
+            });
+        };
+
+        if (window.innerWidth >= 1023) {
+            $(".logo-container").mouseenter(function () {
+                $('.static-logo').hide();
+                $('.static-logo').show();
+                return false;
+            }).mouseleave(function () {
+                $('.static-logo').show();
+                $('.static - logo').hide();
+            });
+
+        }
         
     });
     
-   if (window.innerWidth >= 1024) {
-        $(".logo-container").mouseenter(function(){
-            $('.static-logo').hide();
-            $('.logo-gif').show(); 
-            return false;
-        }).mouseleave(function(){
-            $('.static-logo').show();
-            $('.logo-gif').hide(); 
-        });
-    }; 
-    
-    if (window.innerWidth >= 1023) {
-        $(".logo-container").mouseenter(function(){
-            $('.static-logo').hide();
-            $('.logo-gif').show(); 
-            return false;
-        }).mouseleave(function(){
-            $('.static-logo').show();
-            $('.logo-gif').hide(); 
-        });
-        
-    };
+
     
     
     if (window.innerWidth <= 1023) {

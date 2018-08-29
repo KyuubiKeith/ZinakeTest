@@ -49,7 +49,8 @@
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="logo-container hidden-sm hidden-xs"><div class="static-logo"></div></div>
         <div class="logo-container mobile visible-sm visible-xs"></div>
-        <div class="social-show-container"><a class="social-open" href="#"><span class="hidden-xs">Explore</span> <img class="animated infinite" src="~/Content/Images/SVGs/three-dots.svg" alt="Explore Online"></a></div>
+        <div class="social-show-container"><a class="social-open" href="#"><span class="hidden-xs hidden-sm pulse">Explore</span> <img class="animated infinite hidden-sm hidden-xs" src="~/Content/Images/SVGs/three-dots.svg" alt="Explore Online"></a></div>
+        <div class="social-show-container"><a class="social-open" href="#"><img class="animated infinite hidden-lg hidden-md visible-sm visible-xs" src="~/Content/Images/SVGs/three-dotsDark.svg" alt="Explore Online"></a></div>
     </nav>
     <!--navbar-->
 
@@ -57,36 +58,7 @@
 
     @RenderSection("PopUps")
 
-    <!-- Footer -->
-    <footer class="footer-bottom">
-        <div class="footer-inner-alternative">
-            <div class="row">
 
-                <!-- Left -->
-                <div class="col-sm-8 col-md-7 col-lg-8">
-                    <div class="title"><h5>Zinake Web Portal</h5></div>
-                    <div class="subtitle"><h5> Client/Partner Authentication.</h5></div>
-                </div>
-                <!-- Left -->
-                <!-- Right -->
-                <div class="col-sm-4 col-md-5 col-lg-4 right-footer">
-                    <div class="right-footer-container">
-                        <span class="copyright" href="https://www.MiyabiAfrica.com">&copy; @DateTime.Now.Year  Miyabi Africa</span>
-                        <span class="separator"></span>
-                        <ul class="social-list">
-                            <li><a class="no-dev" href="https://www.facebook.com/miyabiafrica/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-                            <li><a class="no-dev" href="https://twitter.com/miyabiafrica" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-                            <li><a class="no-dev" href="" target="_blank"><i class="fas fa-envelope-square"></i></a></li>
-                            <li><a class="no-dev" href="" target="_blank"><i class="fas fa-phone-square"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Right -->
-
-            </div>
-        </div>
-    </footer>
-    <!-- Footer -->
 
     <script src="~/Scripts/JavaScript/cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="~/Scripts/JavaScript/res/jquery-2.1.4.js"></script>

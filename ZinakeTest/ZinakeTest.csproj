@@ -306,7 +306,9 @@
     <Content Include="Content\Images\JPG\robert-gramner-718405-unsplash.jpg" />
     <Content Include="Content\Images\JPG\ryoji-iwata-470482-unsplash.jpg" />
     <Content Include="Content\Images\SVGs\appDarkminimal.svg" />
-    <Content Include="Content\Images\SVGs\appDark.svg" />
+    <Content Include="Content\Images\SVGs\appDark.svg">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Content\Images\SVGs\app.svg" />
     <Content Include="Content\Images\SVGs\ball-triangle.svg" />
     <Content Include="Content\Images\SVGs\odnoklassniki-logo.svg" />
@@ -315,7 +317,14 @@
     <Content Include="Content\Images\SVGs\rings.svg" />
     <Content Include="Content\Images\SVGs\TheLogoDark.svg" />
     <Content Include="Content\Images\SVGs\TheLogoLight.svg" />
+    <Content Include="Content\Images\SVGs\three-dotsDark.svg" />
     <Content Include="Content\Images\SVGs\three-dots.svg" />
+    <Content Include="Content\Images\SVGs\Zinake2.svg">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Images\SVGs\Zinake.svg">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Content\Videos\Digital_Agency.mp4" />
     <Content Include="Content\Videos\finale-white.mp4" />
     <Content Include="Content\Videos\work_Silhouette.mp4" />
@@ -560,6 +569,10 @@
     <Content Include="Fonts\fontelloa950.ttf" />
     <Content Include="Fonts\fontelloa950.woff" />
     <Content Include="Fonts\fontelloa950.woff2" />
+    <Content Include="Fonts\vagtur.otf" />
+    <Content Include="Fonts\vagtur.ttf" />
+    <Content Include="Fonts\RElapse-Regular.otf" />
+    <Content Include="Fonts\RElapse-Regular.ttf" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_LayoutTest.cshtml" />
     <None Include="Properties\PublishProfiles\ZinakeWebApp - Web Deploy.pubxml" />
