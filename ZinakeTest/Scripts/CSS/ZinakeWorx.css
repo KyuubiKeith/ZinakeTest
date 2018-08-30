@@ -12215,7 +12215,7 @@ a {
 @media screen and (max-width: 1023px) {
     .navbar-fixed-top {
         background-color: transparent;
-        height: 70px;
+        height: 79px;
     }
 }
 
@@ -12900,6 +12900,9 @@ a {
         }
 
 @media screen and (max-width: 480px) {
+    .workinprogress .first-typed-string.highlighted {
+        color: #ab0000;
+    }
     .workinprogress .profile-pic {
         right: 0px;
     }
@@ -12911,8 +12914,8 @@ a {
 
 @media screen and (max-width: 1024px) {
     .navbar-default.navbar-fixed-top {
-        background: dimgrey;
-        background-image: url('/Content/Images/JPG/christopher-burns-368617-unsplash.jpg')
+        background: #fff;
+        opacity: 1;
     }
     .workinprogress .col-center {
         padding-left: 114px;
@@ -12963,7 +12966,7 @@ a {
 
 @media screen and (max-width: 667px) {
     .workinprogress {
-        background-image: url('../../Content/Images/JPG/kristian-ryan-alimon-683428-unsplash.jpg');
+        background-image: url('/Content/Images/JPG/Chalk.jpg');
     }
     .workinprogress h2 {
         font-size: 43px;
@@ -13621,14 +13624,15 @@ a {
 }
 
     .sview-section .overlay-map-layer {
-        background-image: url(/Content/Images/JPG/rawpixel-777268-unsplash.jpg);
+        background-image: url('/Content/Images/JPG/kristian-ryan-alimon-683428-unsplash.jpg');
         z-index: 1;
     }
 
 @media screen and (max-width: 1023px) {
     .sview-section .overlay-map-layer {
         position: static;
-        background: none;
+        background-image: url('/Content/Images/JPG/kristian-ryan-alimon-683428-unsplash.jpg');
+        z-index: 1;
     }
 }
 
@@ -14666,7 +14670,6 @@ ul[class$=list] {
     padding-top: 20px;
     background-size: cover;
     background-position: center center;
-    min-height: 350px;
 }
 
 @media screen and (min-width: 480px) {
@@ -15280,7 +15283,6 @@ body {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -15289,13 +15291,20 @@ h6 {
     margin-top: 0;
 }
 
+
+h2{
+    font-family: 'Dolbak';
+    margin-top: 0;
+}
+
+
     h1.white,
     h2.white,
     h3.white,
     h4.white,
     h5.white,
     h6.white {
-        color: #fff;
+        color: #ab0000;
     }
 
     h1.green,
@@ -15363,7 +15372,7 @@ h2.not-uppercase {
 @media screen and (max-width: 1023px) {
     h2.white,
     h2.green {
-        color: #00dbdb;
+        color: #ab0000;
         font-size: 36px;
     }
 }
@@ -15415,7 +15424,7 @@ p.white {
 
 @media screen and (max-width: 1023px) {
     p.white {
-        color: #666666;
+        color: #000;
     }
 }
 
@@ -15426,7 +15435,7 @@ p.white {
 }
 
 p.text-primary {
-    color: #737171;
+    color: #fff;
 }
 
     p.text-primary.text-on-dark {
