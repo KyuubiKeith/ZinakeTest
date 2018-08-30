@@ -1427,7 +1427,6 @@ th {
 
 /*The Goods*/
 
-
 .bg-video {
     position: fixed;
     z-index: -100;
@@ -1447,7 +1446,6 @@ th {
     height: 100%;
     top: 0;
     width: 100%;
-    position: absolute;
     left: 0;
     background-color: rgba(90, 20, 20,0.45)
 }
@@ -12964,6 +12962,9 @@ a {
 }
 
 @media screen and (max-width: 667px) {
+    .workinprogress {
+        background-image: url('../../Content/Images/JPG/kristian-ryan-alimon-683428-unsplash.jpg');
+    }
     .workinprogress h2 {
         font-size: 43px;
     }

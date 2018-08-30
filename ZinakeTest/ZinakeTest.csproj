@@ -501,11 +501,13 @@
     <Content Include="Scripts\CSS\main.css" />
     <Content Include="Scripts\CSS\Zinake_2.0.css" />
     <Content Include="Scripts\CSS\ZinakeWorx.css" />
+    <Content Include="Scripts\JavaScript\analytics.js" />
     <Content Include="Scripts\JavaScript\cdnjs.cloudflare.com\ajax\libs\modernizr\2.8.3\modernizr.min.js" />
     <Content Include="Scripts\JavaScript\cdnjs.cloudflare.com\ajax\libs\ScrollMagic\2.0.5\ScrollMagic.min.js" />
     <Content Include="Scripts\JavaScript\cdnjs.cloudflare.com\ajax\libs\Swiper\3.4.2\css\swiper.min.css" />
     <Content Include="Scripts\JavaScript\cdnjs.cloudflare.com\ajax\libs\Swiper\3.4.2\js\swiper.min.js" />
     <Content Include="Scripts\JavaScript\cdnjs.cloudflare.com\ajax\libs\typeit\4.2.3\typeit.min.js" />
+    <Content Include="Scripts\JavaScript\hotjar.js" />
     <Content Include="Scripts\JavaScript\internal.js" />
     <Content Include="Scripts\JavaScript\lightslider.js" />
     <Content Include="Scripts\JavaScript\main.js" />
