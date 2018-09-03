@@ -12792,7 +12792,7 @@ a {
 }
 
 .workinprogress {
-    background-image: url('/Content/Images/JPG/christopher-burns-368617-unsplash.jpg')
+    background-image: url('/Content/Images/JPG/bruno-nascimento-113628-unsplash.jpg')
 }
 
     .workinprogress h2 {
@@ -13538,6 +13538,7 @@ a {
 .hiring-section {
     position: relative;
     height: 100%;
+    background-image: url('/Content/Images/JPG/rawpixel-777268-unsplash.jpg')
 }
 
     .hiring-section .normal-button-container:first-child {
@@ -13579,6 +13580,21 @@ a {
         content: "";
         background: rgba(0, 0, 0, 0.33);
     }
+
+}
+
+@media screen and (max-width: 1025px) {
+
+    .hiring-section {
+        background-image: none;
+        background-color: #fff
+    }
+
+    .sview-section {
+        background-image: none;
+        background-color: #fff
+    }
+
 }
 
 .hiring-section .hiring-thumb > video {
@@ -13620,21 +13636,22 @@ a {
 }
 
 .sview-section {
-    background: #fff !important;
+    background-image: url('/Content/Images/JPG/kristian-ryan-alimon-683428-unsplash.jpg')
 }
 
-    .sview-section .overlay-map-layer {
-        background-image: url('/Content/Images/JPG/kristian-ryan-alimon-683428-unsplash.jpg');
-        z-index: 1;
-    }
 
 @media screen and (max-width: 1023px) {
     .sview-section .overlay-map-layer {
         position: static;
-        background-image: url('/Content/Images/JPG/kristian-ryan-alimon-683428-unsplash.jpg');
-        z-index: 1;
     }
 }
+
+@media screen and (max-width: 1023px) {
+    .sview-section .overlay-map-layer {
+        position: static;
+    }
+}
+
 
 .sview-section .left-layer-show {
     position: absolute;
@@ -13643,7 +13660,6 @@ a {
     left: 0;
     width: 76px;
     background: #fff;
-    z-index: 2;
     transform: translateX(-155%);
     transition: transform 800ms cubic-bezier(0.77, 0, 0.175, 1);
 }
@@ -13786,7 +13802,6 @@ a {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background-image: url('/Content/Images/JPG/fancycrave-347298-unsplash.jpg')
 }
 
     .iphone-video-container video {
@@ -14639,7 +14654,6 @@ ul[class$=list] {
     top: 0;
     bottom: 0;
     background-size: cover;
-    background-image:url('/Content/Images/JPG/rawpixel-777268-unsplash.jpg');
     z-index: 1;
 }
 
@@ -14670,6 +14684,7 @@ ul[class$=list] {
     padding-top: 20px;
     background-size: cover;
     background-position: center center;
+
 }
 
 @media screen and (min-width: 480px) {
@@ -15299,7 +15314,6 @@ h2{
 
 
     h1.white,
-    h2.white,
     h3.white,
     h4.white,
     h5.white,
@@ -15316,6 +15330,10 @@ h2{
         color: #eb0707;
     }
 
+h2.white {
+    color: red;
+}
+
 @media screen and (max-width: 992px) {
     h1,
     h2,
@@ -15325,6 +15343,10 @@ h2{
     h6 {
         white-space: normal;
     }
+
+        h2.white {
+            color: #ab0000;
+        }
 }
 
 h1.big-title {
@@ -15568,9 +15590,6 @@ a {
     background-size: cover;
 }
 
-.vs-section {
-    background-image: url('/Content/Images/JPG/bruno-nascimento-113628-unsplash.jpg');
-}
 
 @media screen and (max-width: 768px) {
     .vs-section {

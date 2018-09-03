@@ -13,7 +13,7 @@ $(document).ready(function(){
 function playAnimation(){
     $(".second", section).addClass("show");
     $(".second-typed-string", section).typed({
-        strings: ["The Zinake"],
+        strings: ["Zinake"],
         typeSpeed: 100,
         startDelay: 1000,
         preStringTyped: function() {
